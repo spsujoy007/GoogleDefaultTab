@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+.itemCard{
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.349),
+     -3px -3px 8px rgba(255, 255, 255, 0.089);
+     transition: all 0.8s;
+}
+
+.itemCard:hover {
+    box-shadow: none;
+}
+
+.inputGoogle:focus .VolumeIcon {
+    animation: focusMike 2s ease-in-out infinite;
+}
+
+@keyframes focusMike {
+    0%{
+        font-size: 20px;
+    }
+    100%{
+        font-size: 30px;
+    }
+}
